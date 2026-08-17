@@ -57,7 +57,7 @@ dsh-hindsight-local-optimize/
 1. 把本仓库克隆或复制到 DSH 的全局插件目录：
 
    \`\`\`
-   <DSH_HOME>/profiles/node_modules/dsh-hindsight-local-optimize/
+   <DSH_HOME>/profiles/node_modules/dsh-hindsight-local/
    \`\`\`
 
 2. 在 `<DSH_HOME>/profiles/web/cordis.patch.yml` 末尾追加一行挂载：
@@ -65,7 +65,7 @@ dsh-hindsight-local-optimize/
    \`\`\`yaml
    - insert:
        - id: hindsight-local
-         name: 'dsh-hindsight-local-optimize'
+         name: 'dsh-hindsight-local'
    \`\`\`
 
 3. 完全退出并重新打开 DSH 桌面端。
