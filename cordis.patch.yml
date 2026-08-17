@@ -1,0 +1,6 @@
+# dsh-hindsight-local bundle patch — wires the host half into the web profile.
+# The host half serves /hindsight-local/* routes (start/stop/status/config) and
+# spawns/stops the local hindsight-embed daemon; the browser half renders the toggle.
+- insert:
+    - id: hindsight-local
+      name: 'dsh-hindsight-local'
