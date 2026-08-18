@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "description": "DSH web client plugin: a sidebar toggle to start/stop the local Hindsight memory daemon (hindsight-embed) for the DeepSeek Harness desktop app.",
   "license": "MIT",
-  "peerDependencies": {
-    "@deepseek-ai/cordis": "^4.0.1",
-    "@deepseek-ai/dsh-host-webserver": "^0.1.0-rc.6"
-  },
   "type": "module",
   "main": "lib/index.js",
   "exports": {
