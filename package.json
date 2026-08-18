@@ -5,6 +5,9 @@
   "license": "MIT",
   "type": "module",
   "main": "lib/index.js",
+  "scripts": {
+    "test": "node --check lib/index.js && node --check lib/client.js && node --check lib/watchdog.mjs"
+  },
   "exports": {
     ".": {
       "default": "./lib/index.js"
